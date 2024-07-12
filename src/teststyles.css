@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+a { text-decoration: none; }
+* { transition: 0.4s ease; }
+body3 {
+    overflow-x: hidden;
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.rela-block2 {
+    display: block;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.floated2 {
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.floated2.left2 { float: left; }
+.floated2.right2 { float: right; }
+
+.abs-cent-text2 {
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.half-big-text2 {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 48px;
+    letter-spacing: 12px;
+    margin-bottom: 45px;
+}
+.half-big-text2.has-border2 {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 50px;
+    padding: 15px 45px;
+    border: 10px solid;
+}
+
+.small-header2 {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+}
+
+.testimonials-section2 {
+    background-color: black;
+    color: white;
+    height: 500px;
+}
+
+.test-left2 {
+    height: 100%;
+    width: 42%;
+}
+.test-left2 .abs-cent-text2 {
+    width: 98%;
+}
+
+.test-right2 {
+    height: 100%;
+    width: 58%;
+}
+.test-right2 .space2 {
+    margin-bottom: 60px;
+    font-size: 16px;
+    letter-spacing: 4px;
+    line-height: 20px;
+}
+.test-right2 .small-header2 {
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+}
+
+/* Add additional media queries and styles as needed */

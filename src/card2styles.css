@@ -1,0 +1,11 @@
+.card-image2 {
+    position: absolute; /* Remove the image from the normal document flow */
+    top: 40%; /* Center the image vertically */
+    left: 10px; /* Align the image to the left edge */
+    transform: translateY(-50%); /* Center the image vertically */
+    max-width: 40%; /* Ensure the image takes up to 45% of the card's width */
+    height: auto; /* Maintain the image's aspect ratio */
+    margin-left: 20px;
+  }
+
+  

@@ -1,0 +1,33 @@
+.content-with-ascii {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center !important; /* Center vertically */
+  }
+  
+  .ascii-art-container {
+    padding-left: 20px;
+    display: flex;
+    align-items: center !important; /* Center vertically */
+  }
+  
+  .ascii-art {
+    font-family: 'Courier New', Courier, monospace; /* Ensure monospace font */
+    font-size: 16px;
+    color: #86C232;
+    white-space: pre; /* Preserve whitespace and line breaks */
+    margin: 0;
+  }
+  .half-big-textc1 {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 72px;
+    letter-spacing: 12px;
+    margin-bottom: 45px;
+    
+  }
+  
+
+
+  

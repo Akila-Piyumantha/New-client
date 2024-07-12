@@ -1,0 +1,157 @@
+.cards-container {
+    display: flex;
+    justify-content: space-around; /* Distribute the cards evenly */
+    align-items: center; /* Center the cards vertically within the container */
+    padding: 20px;
+    border-radius: 20px;
+    background-color:rgba(0, 0, 0, 0.1); /* Optional: for better visibility */
+    height: 100vh; /* Optional: adjust height as needed */
+  }
+  
+  .custom-card {
+    width: 18rem;
+    border-radius: 50px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for a premium look */
+  }
+  .card-container2 {
+    position: relative;
+    display: flex;
+    justify-content: flex-start; /* Align the card and overlay to the left */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .overlay-and-card-container2 {
+    position: relative;
+    width: 19rem; /* Adjust width of container as needed */
+  }
+  
+  .card-overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0; /* Stick the left side of the overlay to the left side of the screen */
+    width: 70%; /* Cover the entire width of the container */
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1); /* Transparent overlay */
+    border-radius: 30px; /* Round top-right corner */
+    /* Ensure overlay follows the card's border-radius */
+    z-index: 1; /* Place overlay behind the card */
+  }
+  
+  .custom-card2 {
+    width: 90%; /* Ensure card fills the entire width of the container */
+    background-color: #7091E6; /* Semi-transparent background */
+    border-radius: 30px; /* Round top-right corner */
+     /* Round bottom-right corner */
+    border: none; /* Remove default border */
+    position: relative;
+    z-index: 2; /* Place card above the overlay */
+  }
+  
+  .custom-card-body2 {
+    z-index: 2; /* Ensure content is above the card */
+  }
+  .custom-card-img2 {
+    width: 100%; /* Ensure image fits within the card */
+    height: 300px; /* Maintain aspect ratio */
+    border-top-right-radius: 30px; /* Match card's top-right corner */
+    border-top-left-radius: 30px; /* Ensure bottom-right corner is not rounded */
+    display: block; /* Ensure image behaves as a block element */
+    overflow: hidden; /* Prevent image from overflowing */
+  }
+
+
+  /* middlE CARD*/
+
+  .card-container3 {
+    position: relative;
+    display: flex;
+    justify-content: flex-start; /* Align the card and overlay to the left */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    
+  }
+  
+  .overlay-and-card-container3 {
+    position: relative;
+    width: 19rem; /* Adjust width of container as needed */
+  }
+  
+  .card-overlay3 {
+    position: absolute;
+    top: 0;
+    left: 0; /* Stick the left side of the overlay to the left side of the screen */
+    width: 90%; /* Cover the entire width of the container */
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1); /* Transparent overlay */
+    border-radius: 30px; /* Round top-right corner */
+    /* Ensure overlay follows the card's border-radius */
+    z-index: 1; /* Place overlay behind the card */
+  }
+  
+  .custom-card3 {
+    width: 90%; /* Ensure card fills the entire width of the container */
+    background-color: #7091E6; /* Semi-transparent background */
+    border-radius: 30px; /* Round top-right corner */
+     /* Round bottom-right corner */
+    border: none; /* Remove default border */
+    position: relative;
+    z-index: 2; /* Place card above the overlay */
+  }
+  
+  .custom-card-body3 {
+    z-index: 2; /* Ensure content is above the card */
+  }
+  .custom-card-img4 {
+
+    width: 100%; /* Ensure image fits within the card */
+    height: 300px; /* Maintain aspect ratio */
+    border-top-right-radius: 30px; /* Match card's top-right corner */
+    border-top-left-radius: 30px; /* Ensure bottom-right corner is not rounded */
+    display: block; /* Ensure image behaves as a block element */
+    overflow: hidden; /* Prevent image from overflowing */
+  }
+
+  .card-container4 {
+    position: relative;
+    display: flex;
+    right: 40px;
+    justify-content: flex-end; /* Align the card and overlay to the left */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .overlay-and-card-container4 {
+    right: 0;
+    width: 19rem; /* Adjust width of container as needed */
+  }
+  
+  .card-overlay4 {
+    position: absolute;
+    top: 0;
+    right: 0; /* Stick the left side of the overlay to the left side of the screen */
+    width: 70%; /* Cover the entire width of the container */
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1); /* Transparent overlay */
+    border-radius: 30px; /* Round top-right corner */
+    /* Ensure overlay follows the card's border-radius */
+    z-index: 1; /* Place overlay behind the card */
+  }
+  
+  .custom-card4 {
+    width: 90%;
+    right: 0 !; /* Ensure card fills the entire width of the container */
+    background-color: #7091E6; /* Semi-transparent background */
+    border-radius: 30px; /* Round top-right corner */
+     /* Round bottom-right corner */
+    border: none; /* Remove default border */
+    position: relative;
+    z-index: 2; /* Place card above the overlay */
+  }
+  
+  .custom-card-body4 {
+    z-index: 2; /* Ensure content is above the card */
+  }

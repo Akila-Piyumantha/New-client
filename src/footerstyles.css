@@ -1,0 +1,89 @@
+.rela-blockf {
+    display: block;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .small-headerf {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+   
+  }
+
+  .small-headerf23 {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    color: #050A44;
+    font-weight: bolder;
+
+   
+  }
+  
+  
+  .top-linkf {
+    cursor: pointer;
+  }
+  
+  .footer-sectionf {
+    padding: 75px 0;
+    background: black;
+    color: white;
+  }
+  
+  .social-buttons-containerf {
+    min-height: 100px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 20px;
+    text-align: center;
+  }
+  
+  .social-buttonf {
+    display: inline-block;
+    position: relative;
+    transform: scale(0.75);
+    height: 75px;
+    width: 75px;
+    background-size: cover !important;
+    transition: 0.3s ease;
+    margin: 14px 2px;
+    cursor: pointer;
+  }
+  
+  .social-button:hoverf {
+    transform: scale(1);
+    transition: 0.3s cubic-bezier(0.3, 0.2, 0, 2.5);
+  }
+  
+  .facebook-buttonf {
+    background: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/facebook-square-social-media-256.png") no-repeat center;
+  }
+  
+  .twitter-buttonf {
+    background: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/twitter-square-social-media-256.png") no-repeat center;
+  }
+  
+  .instagram-buttonf {
+    background: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/instagram-square-social-media-256.png") no-repeat center;
+  }
+  
+  .behance-buttonf {
+    background: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/behance-square-social-media-256.png") no-repeat center;
+  }
+  .under-top-small-textf {
+    width: 84%;
+    max-width: 580px;
+    margin: 0 auto 50px auto; /* Center the element and keep the bottom margin */
+    text-align: center !important;
+    color: #25274D;
+}

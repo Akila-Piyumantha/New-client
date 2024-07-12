@@ -1,0 +1,79 @@
+
+  
+  .container28 {
+    padding: 75px 0;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+ 
+  
+  .gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  .itemjcb {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: flex 0.8s ease;
+  }
+  
+  .itemjcb:hover {
+    flex: 7;
+  }
+  
+  /* styles.css */
+.item-1 {
+  background-image:  url('/public/innovation.jpg');
+}
+
+.item-2 {
+  background-image:  url('/public/excellence.jpg');
+}
+
+.item-3 {
+  background-image: url('/public/human.jpg');
+}
+
+.item-4 {
+  background-image:  url('/public/intergrity.jpg');
+}
+
+.item-5 {
+  background-image:  url('/public/collabaration.png');
+}
+
+  .blog-slider__title88 {
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+      color: #f2f2f5;
+      text-transform: uppercase;
+      font-size: 20px ;
+      line-height: 80px;
+      letter-spacing: 2px;
+      top: 18%; /* Position the element 50% from the top */
+      /* Position the element 50% from the left */
+     
+  }
+  .blog-slider__title889 {
+    margin-bottom: 100px;
+    font-family: 'Montserrat';
+      color: #f2f2f5;
+      text-transform: uppercase;
+      font-size: 20px ;
+      line-height: 80px;
+      letter-spacing: 1px;
+      top: 80%; /* Position the element 50% from the top */
+      /* Position the element 50% from the left */
+     
+  }
+ 
+  
+
+  

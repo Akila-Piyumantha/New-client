@@ -1,0 +1,27 @@
+.progress-bar {
+    height: 18px;
+    width: 100%;
+    border: 3px solid #86C232;
+    margin-bottom: 40px;
+    position: relative;
+    border-radius: 30px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #25274D; /* Green progress */
+    position: absolute; /* Position it absolutely within .progress-bar */
+    top: 0;
+    left: 0;
+    transition: width 2s; /* Smooth transition */
+  }
+  
+  .progress-text {
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #86C232;
+    font-weight: bold;
+  }
+  

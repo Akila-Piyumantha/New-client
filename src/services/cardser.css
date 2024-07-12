@@ -1,0 +1,115 @@
+/* Follow me on:
+  https://dribbble.com/Curtis_A_Lee
+*/
+/* Check out my website:
+  https://thatboycurt.com/
+*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+
+.obtbody {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 5rem;
+  background-color: #f5f5f5;
+  font-family: "Inter", sans-serif;
+  align-items: center;
+}
+@media (max-width: 50em) {
+  .obtbody {
+    padding: 1rem;
+    box-sizing: border-box;
+  font-size: 62.5%;
+  align-items: center;
+  }
+}
+
+.obt-grid {
+    display: grid;
+    width: 114rem;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    align-items: center !important;
+    justify-items: center; /* Align items to center horizontally */
+    margin-left: -110px;
+    margin-top: -100px;
+  }
+  @media (max-width: 30em) {
+    .obt-grid {
+      grid-gap: 2rem;
+      align-items: center;
+    }
+  }
+  
+.obt-grid .obt-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: 0.2s;
+ 
+}
+.obt-grid .obt-card:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.9);
+  background-color: #3363ff;
+}
+.obt-grid .obt-card__img {
+  display: block;
+  width: 100%;
+  height: 18rem;
+  object-fit: cover;
+}
+.obt-grid .obt-card__content {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-row-gap: 2rem;
+  padding: 2rem;
+  height: 100%;
+}
+.obt-grid .obt-card__header {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #0d0d0d;
+}
+.obt-grid .obt-card__text {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  color: #3d3d3d;
+  margin-bottom: 2.5rem;
+}
+.obt-grid .obt-card__btn {
+  display: block;
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #3363ff;
+  background-color: #e6ecff;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.obt-grid .obt-card__btn span {
+  margin-left: 1rem;
+  transition: 0.2s;
+}
+.obt-grid .obt-card__btn:hover, .obt-grid .obt-card__btn:active {
+  background-color: #dce4ff;
+}
+.obt-grid .obt-card__btn:hover span, .obt-grid .obt-card__btn:active span {
+  margin-left: 1.5rem;
+}

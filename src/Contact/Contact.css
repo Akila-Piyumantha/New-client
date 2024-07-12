@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+.a { text-decoration: none; }
+* { transition: 0.4s ease; }
+
+
+
+.contact-section {
+    padding: 220px 0 120px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.section-description {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto 120px;
+}
+
+.orbitron {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.contact-form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.contact-half {
+    flex: 0 1 48%;
+    margin: 0 0.5% 40px;
+    text-align: left;
+}
+
+.small-header {
+    font-size: 14px;
+    margin: 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.submit-button {
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.contact-left .small-header {
+    text-transform: none;
+    letter-spacing: 1px;
+}
+
+.quad-container {
+    margin: 20px 0;
+}
+
+.contact-quad {
+    display: inline-block;
+    width: 48%;
+    box-sizing: border-box;
+    padding: 15px;
+    vertical-align: top;
+}
+
+.contact-input, .contact-input:focus {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    border: 5px solid;
+    outline: none;
+    color:"#050A44"
+}
+
+.big-input {
+    height: 140px;
+}
+
+.social-button {
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+    background-size: cover !important;
+    margin: 14px 2px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.social-button:hover {
+    transform: scale(1.1);
+    transition: 0.3s cubic-bezier(0.3, 0.2, 0, 2.5);
+}
+
+.facebook-button {
+    background: url('https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/facebook-square-social-media-256.png') no-repeat center;
+}
+
+.twitter-button {
+    background: url('https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/twitter-square-social-media-256.png') no-repeat center;
+}
+
+.instagram-button {
+    background: url('https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/instagram-square-social-media-256.png') no-repeat center;
+}
+
+.body5 {
+    font-family: "Century Gothic", 'Lato', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .hero-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    position: relative;
+    background-image: url('/public/contact.jpg');
+    text-align: center;
+    padding: 0 2em;
+    
+  }
+
+
+  .hero-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Black overlay with 50% opacity */
+    z-index: 2;
+}
+
+
+
+  
+  .hero-banner h1 {
+    font-size: 4rem;
+    margin: 0;
+    letter-spacing: 1.2rem;
+    font-family: "Century Gothic", 'Lato', sans-serif;
+   
+    
+  }
+  
+  .hero-banner h3 {
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    opacity: 0.8;
+    color: #86C232;
+  }
+  
+  @media (min-width: 800px) {
+    .hero-banner h1 {
+      font-size: 4rem;
+    }
+    .hero-banner h3 {
+      font-size: 1rem;
+    }
+  }
+  

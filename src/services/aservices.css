@@ -1,0 +1,73 @@
+.uniquehero-banner {
+    align-items: center;
+    display: flex;
+    height: 60vh;
+    position: relative;
+    justify-content: center;
+    z-index: 0;
+  }
+  
+  .unique-hero-banner__title {
+    color: #ffffff;
+    font-size: 100px;
+    letter-spacing: 28px;
+    font-weight: 700;
+    padding: 0 20px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 0;
+    
+  }
+  
+  .unique-hero-banner__stroked-title {
+    color: transparent;
+    -webkit-text-stroke: 0.01px #86C232;
+    
+    z-index: 0 !important;
+  }
+  
+  .unique-hero-banner__image {
+    border-radius: 30px; /* Change this value to adjust the shape */
+    position: fixed;
+    transform: rotate(10deg);
+    width: 700px;
+    z-index: 0;
+    
+
+  }
+  
+  .unique-hero-banner__uniquecontent {
+    background-color: #fdf8f8;
+    font-size: 40px;
+    padding: 120px 80px;
+    height: 180vh;
+    display: block;
+    position: relative;
+    text-align: center;
+   
+    width: 100%;
+    overflow: hidden;
+   
+  }
+  
+  .OPbody {
+    background-color: #050A44;
+    font-family: 'Roboto', sans-serif;
+    
+    
+  }
+ 
+  .fgh{
+    z-index: 2;
+  }
+  
+  .grad-back2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(transparent, rgba(0, 0, 0, 0.6));
+  }

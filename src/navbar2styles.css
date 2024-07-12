@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+a {
+  text-decoration: none;
+}
+
+* {
+  transition: 0.4s ease;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+
+
+.rela-block {
+  display: block;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.floated {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.floated.left {
+  float: left;
+}
+
+.floated.right {
+  float: right;
+}
+
+.abs-cent-text {
+  position: absolute;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.orbitron {
+  display: inline-block;
+  position: relative;
+  font-family: 'Orbitron';
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  margin-bottom: 60px;
+  color: #AFD275;
+}
+
+.orbitron::before,
+.orbitron::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 60%;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  
+}
+
+.orbitron::before {
+  left: -65%;
+}
+
+.orbitron::after {
+  right: -63%;
+}
+
+.orbitron.black-orb::before,
+.orbitron.black-orb::after {
+  background-color: black;
+}
+
+.nav-bar {
+  position: fixed;
+ 
+  z-index: 100;
+  height: 110px;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 6%;
+ 
+}
+
+.nav-bar.scrolled {
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-logo {
+  position: absolute;
+  top: 35%;
+  left: 6%;
+  transform: translateY(-50%);
+  font-family: 'Montserrat';
+  font-size: 24px;
+  letter-spacing: 0px;
+  color: white;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+
+.nav-links-container {
+  position: absolute;
+  top: 50%;
+  right: 6%;
+  transform: translateY(-50%);
+  display: flex;
+  gap: 15px; 
+}
+
+.nav-link {
+  color: #86C232;
+  font-size: 13px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 0 12px;
+  transition: 0.4s ease;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: white;
+}
+
+.top-section {
+  height: 100vh;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/archive/e/e1/20141028134401%21Icefields%282013.07.16%29byRyanSchroeder.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.grad-back::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(transparent, rgba(0, 0, 0, 0.9));
+}
+
+.top-text {
+  color: white;
+  top: 58%;
+  line-height: 28px;
+}
+
+.top-small-text {
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.big-text {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 50px !important;
+  line-height: 72px;
+  letter-spacing: 5px;
+  margin-bottom: -0px !important;
+}
+
+.half-big-text {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 72px;
+  letter-spacing: 12px;
+  margin-bottom: 45px;
+  color: #25274D;
+}
+
+.half-big-text.has-border {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 50px;
+  padding: 15px 45px;
+  border: 10px solid;
+  color: #25274D;
+}
+
+.under-top-section {
+  color: white;
+  background-color: #25274D;
+  text-align: left;
+  padding: 0 6%;
+}
+
+.under-top-big-text {
+  margin-top: 80px;
+}
+
+.under-top-small-text {
+  width: 84%;
+  max-width: 580px;
+  margin-bottom: 50px;
+}
+
+.lines-thing {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 45px;
+  height: 2px;
+  width: 100px;
+  background-color: #61892F;
+}
+
+.lines-thing::before,
+.lines-thing::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 40px;
+  background-color: #86C232;
+}
+
+.lines-thing::before {
+  top: -12px;
+}
+
+.lines-thing::after {
+  bottom: -12px;
+}
+
+.lines-thing.black {
+  background-color: #25274D;
+}
+
+.lines-thing.black::before,
+.lines-thing.black::after {
+  background-color: #25274D;
+}
+
+.welcome-section {
+  height: 480px;
+  
+  background-size: 1100px 660px;
+}
+
+.welcome-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.0) 48%, transparent);
+}
+
+.welcome-section .orbitron {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.welcome-text {
+  right: 0;
+  width: 45%;
+  max-width: 900px;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.welcome-text .big-text {
+  margin-bottom: 30px;
+}
+
+.welcome-text p {
+  max-width: 480px;
+  margin: 0 auto 40px;
+}
+
+.has-lines {
+  display: inline-block !important;
+  position: relative !important;
+  text-transform: uppercase;
+  padding: 13px 45px;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin: 10px;
+}
+
+.has-lines::before,
+.has-lines::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  left: 45px;
+  right: 45px;
+  transition: 0.2s ease;
+}
+
+.has-lines::before {
+  top: 0;
+}
+
+.has-lines::after {
+  bottom: 0;
+}
+
+.has-lines.white:hover::before,
+.has-lines.white:hover::after {
+  background-color: white;
+}
+
+.has-lines.black:hover::before,
+.has-lines.black:hover::after {
+  background-color: black;
+}
+
+.has-lines:hover::before {
+  top: 8px;
+}
+
+.has-lines:hover::after {
+  bottom: 10px;
+}
+
+.about-us-section {
+  padding: 0px 0 150px;
+}
+
+.about-us-section > p {
+  display: block;
+  position: relative;
+  width: 65%;
+  margin: 30px auto 120px;
+}
+
+.about-us-section .orbitron {
+  margin-bottom: 100px;
+}
+
+.about-us-quad-container,
+.about-us-bottom-container {
+  width: 85%;
+  max-width: 1100px;
+  margin: 60px auto 100px;
+ 
+}
+
+.quad-half {
+  width: 50%;
+  text-align: left;
+  padding: 30px 20px 10px;
+}
+
+.quad-half p {
+  width: 90%;
+}
+
+.small-header {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  color: #25274D;
+}
+
+.bottom-left-side {
+  text-align: left;
+  width: 65%;
+}
+
+.bottom-left-side .small-header,
+.bottom-left-side .lines-thing {
+  margin-bottom: 45px;
+}
+
+.bottom-left-side p {
+  width: 90%;
+}
+
+.bottom-right-side {
+  width: 35%;
+  text-align: left;
+  line-height: 30px;
+}
+
+.bottom-right-side p {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+.progress-bar {
+  height: 18px;
+  width: 90%;
+  border: 3px solid #86C232;
+  margin-bottom: 40px;
+  position: relative;
+  border-radius: 30px;
+}
+.progress {
+  height: 100%;
+  width: 100%; /* Initial width of progress */
+  background-color: #25274D; /* Green progress */
+  position: absolute; /* Position it absolutely within .progress-bar */
+  top: 0;
+  left: 0;
+  
+}
+
+.progress-bar p {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.progress-bar .progress {
+  height: 100%;
+  width: 99%; /* Initial width of progress */
+  background-color: #25274D; /* Green progress */
+  position: absolute; /* Position it absolutely within .progress-bar */
+  top: 0;
+  left: 0;
+}
+
+.quote-text {
+  margin: 30px auto;
+}
+
+.quote-section {
+  color: white;
+  text-align: left;
+  padding: 0 6%;
+}
+
+.quote-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 80px;
+ 
+}
+
+.black-orb {
+  font-size: 30px;
+}
+
+.black-orb::before,
+.black-orb::after {
+  background-color: black;
+}
+
+.call-to-action {
+  text-align: center;
+  color: white;
+  height: 800px;
+  background: url('https://api.gettyimages.com/v3/images/174006525') no-repeat center;
+  background-size: cover;
+}
+
+.call-to-action p {
+  margin-bottom: 60px;
+}
+
+.features-section {
+  padding: 200px 0 100px;
+}
+
+.feature {
+  width: 100%;
+  padding: 50px;
+  text-align: left;
+}
+
+.feature p {
+  width: 95%;
+  margin-bottom: 40px;
+}
+
+.feature .small-header {
+  margin-bottom: 30px;
+}
+
+.more-features {
+  padding-bottom: 80px;
+}
+
+.more-features .small-header {
+  margin-bottom: 40px;
+}
+
+.more-features p {
+  width: 84%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.footer {
+  text-align: left;
+  padding: 120px 6%;
+}
+
+.footer p {
+  width: 84%;
+  max-width: 580px;
+  margin: 0 0 40px;
+}
+
+.footer .small-header {
+  margin-bottom: 30px;
+}
+
+.social-container {
+  text-align: center;
+}
+
+.social {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 22px;
+  border: 1px solid #333;
+  border-radius: 50%;
+  display: inline-block;
+  color: #333;
+  margin: 15px 7px 20px;
+  cursor: pointer;
+}
+
+.footer-credit {
+  margin: 100px 0 40px;
+  color: #888;
+  font-size: 13px;
+}
+.portfolio-bottom {
+  height: 450px;
+}
+
+.quarter-div {
+  height: 25%;
+  width: 100%;
+}
+
+.quarter-div .big-text {
+  margin-bottom: 10px;
+}
+
+
+
+.lines-thing2 {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 45px;
+  height: 2px;
+  width: 150px;
+  background-color: #25274D;
+}
+
+.lines-thing2::before,
+.lines-thing2::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 60px;
+  background-color: #25274D;
+}
+
+.lines-thing2::before {
+  top: -12px;
+}
+
+.lines-thing2::after {
+  bottom: -12px;
+}
+
+.lines-thing2.black {
+  background-color: #25274D;
+}
+
+.lines-thing2.black::before,
+.lines-thing2.black::after {
+  background-color: #25274D;
+}
