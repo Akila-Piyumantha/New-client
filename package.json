@@ -1,5 +1,5 @@
 {
-  "proxy": "http://localhost:4000",
+  "proxy": "https://new-api-git-master-akila-piyumanthas-projects.vercel.app/",
   "name": "airdyna",
   "version": "0.1.0",
   "private": true,
